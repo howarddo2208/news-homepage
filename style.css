@@ -219,7 +219,6 @@ nav {
   align-content: center;
   height: 100vh;
   width: 70vw;
-  padding-inline: var(--space-md);
   background-color: hsl(var(--bkg));
   transition: right 0.5s;
 }
@@ -253,9 +252,11 @@ nav {
   text-transform: uppercase;
   max-width: max-content;
   background-color: hsl(var(--accent2));
-  padding: 1em 2em;
+  padding: 1em 1.5em;
   letter-spacing: 0.2em;
   transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
 }
 
 .btn:hover {
